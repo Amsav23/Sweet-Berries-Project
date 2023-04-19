@@ -5,6 +5,48 @@
     --black: #000000;
     --dark-grey: #646464;
     --light-grey: #DCDCDC;
+}
 
-    
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-beige);
+}
+
+.container {
+    background-color: var(--light-beige);
+    margin: 0 auto;
+    width: 90%;
+}
+
+/*header*/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 80px;
+    background-color: lightblue;
+}
+
+.logo {
+
+}
+
+nav a {
+    color: var(--black);
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 20px;
+}
+
+nav button {
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 100px;
+    padding: 10px 15px;
+    margin-left: 950px;
 }
