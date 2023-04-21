@@ -19,22 +19,23 @@ html, body {
     margin: 0 auto;
     width: 90%;
     height: 100px;
-
-    display: grid;
 }
 
 /*header*/
 header {
-    /*display: flex;*/
+    display: flex;
     padding-top: 20px;
     padding-left: 0px;
     padding-bottom: 75px;
     background-color: lightblue;
+
+    align-items: center;
 }
 
 .logo {
 
 }
+
 
 nav a {
     color: var(--black);
@@ -44,7 +45,7 @@ nav a {
     margin: 20px;
 }
 
-nav button {
+button {
     color: var(--white);
     background-color: var(--black);
     border-radius: 100px;
@@ -54,7 +55,8 @@ nav button {
 
 /*banner*/
 .banner {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     background-color: aquamarine;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 40px;
@@ -83,14 +85,19 @@ nav button {
 }
 
 /*main*/
-.main {
+.main_container {
     display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 350px);
+    gap: 100px;
+}
+
+.main {
     background-color: red;
 }
 
 .main_content {
     background-color: lightgreen;
-    display: grid;
     /*grid-template-columns: 1fr 1fr 1fr;*/
     align-items: center;
 
@@ -98,13 +105,13 @@ nav button {
 }
 
 .courses_container {
+    display: flex;
+    flex-direction: column;
     background-color: orange;
     border-radius: 10px;
-
-    display: grid;
 }
 
-button {
+.main-btn {
 
 }
 
