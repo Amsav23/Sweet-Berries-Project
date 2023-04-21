@@ -21,17 +21,14 @@ html, body {
     height: 100px;
 
     display: grid;
-    grid-template-rows: 1fr 2fr 3fr;
 }
 
 /*header*/
 header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
+    /*display: flex;*/
     padding-top: 20px;
-    padding-left: 50px;
-    padding-bottom: 80px;
+    padding-left: 0px;
+    padding-bottom: 75px;
     background-color: lightblue;
 }
 
@@ -57,15 +54,24 @@ nav button {
 
 /*banner*/
 .banner {
-
+    display: grid;
+    background-color: aquamarine;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
 }
 
 .banner_left {
-
+    background-color: var(--light-beige);
+    padding: 0px;
 }
 
 .banner_text {
+    font-size: 35px;
+}
 
+.banner_text p {
+    font-size: 20px;
+    color: var(--dark-grey);
 }
 
 .banner_right {
@@ -78,15 +84,24 @@ nav button {
 
 /*main*/
 .main {
-
+    display: grid;
+    background-color: red;
 }
 
 .main_content {
+    background-color: lightgreen;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    align-items: center;
+
 
 }
 
 .courses_container {
+    background-color: orange;
+    border-radius: 10px;
 
+    display: grid;
 }
 
 button {
