@@ -32,11 +32,6 @@ header {
     align-items: center;
 }
 
-.logo {
-
-}
-
-
 nav a {
     color: var(--black);
     text-decoration: none;
@@ -45,7 +40,12 @@ nav a {
     margin: 20px;
 }
 
-button {
+.logo {
+
+}
+
+
+header button {
     color: var(--white);
     background-color: var(--black);
     border-radius: 100px;
@@ -90,18 +90,23 @@ button {
     justify-content: center;
     grid-template-columns: repeat(auto-fill, 350px);
     gap: 100px;
+
+    background-color: lightsalmon;
 }
 
 .main {
     background-color: red;
+    border-radius: 10px;
+    padding: 20px;
 }
 
-.main_content {
-    background-color: lightgreen;
-    /*grid-template-columns: 1fr 1fr 1fr;*/
-    align-items: center;
+.icon {
+    position: relative;
+    height: 40px;
+    width: 45px;
 
-
+    top: 0px;
+    left: 250px;
 }
 
 .courses_container {
@@ -112,7 +117,13 @@ button {
 }
 
 .main-btn {
+    display: flex;
+    flex-wrap: wrap;
 
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 100px;
+    padding: 10px 15px;
 }
 
 /*footer*/
@@ -120,6 +131,6 @@ footer {
 
 }
 
-.footer_text {
+.footer_logo {
 
 }
