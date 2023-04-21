@@ -18,6 +18,10 @@ html, body {
     background-color: var(--light-beige);
     margin: 0 auto;
     width: 90%;
+    height: 100px;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr;
 }
 
 /*header*/
@@ -49,4 +53,51 @@ nav button {
     border-radius: 100px;
     padding: 10px 15px;
     margin-left: 950px;
+}
+
+/*banner*/
+.banner {
+
+}
+
+.banner_left {
+
+}
+
+.banner_text {
+
+}
+
+.banner_right {
+
+}
+
+.pic {
+
+}
+
+/*main*/
+.main {
+
+}
+
+.main_content {
+
+}
+
+.courses_container {
+
+}
+
+button {
+
+}
+
+/*footer*/
+footer {
+
+}
+
+.footer_text {
+
 }
