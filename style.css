@@ -41,7 +41,7 @@ nav a {
 }
 
 .logo {
-
+    background-color: blue;
 }
 
 
@@ -56,32 +56,48 @@ header button {
 /*banner*/
 .banner {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     background-color: aquamarine;
-    grid-template-columns: 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr;*/
     margin-bottom: 40px;
+
+    gap: 88px;
+    /*gap: 138px;*/
 }
 
 .banner_left {
-    background-color: var(--light-beige);
-    padding: 0px;
+
 }
 
 .banner_text {
-    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    /*flex: 0 0 350px;*/
+
+    background-color: palevioletred;
+    width: 500px;
+}
+
+.banner_text h1 {
+    font-size: 60px;
+    background-color: lightblue;
 }
 
 .banner_text p {
-    font-size: 20px;
+    font-size: 25px;
     color: var(--dark-grey);
+    background-color: lightgreen;
 }
 
 .banner_right {
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: red;
 }
 
 .pic {
-
+    width: 550px;
 }
 
 /*main*/
@@ -96,42 +112,42 @@ header button {
 }
 
 .main {
-    background-color: red;
+    background-color: var(--light-beige);
     border-radius: 10px;
-    margin-left: 30px;
-    margin-right: 30px;
+    /*margin-left: 30px;
+    margin-right: 30px;*/
 }
-/*
-.main h2 {
-    display: flex;
-    align-content: center;
-}*/
 
 .icon {
     position: relative;
     height: 40px;
     width: 45px;
 
-    top: 0px;
+    top: 20px;
     left: 250px;
 }
 
 .courses_container {
+    font-size: 25px;
+
     display: flex;
     flex-direction: column;
     background-color: orange;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 30px;
+    padding: 40px;
 }
 
 .main-btn {
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
 
     color: var(--black);
-    background-color: var(--white);
+    background-color: var(--light-beige);
     border-radius: 100px;
     padding: 10px 15px;
+    margin: 20px;
+    border: 1px solid var(--light-grey);
+
 }
 
 /*footer*/
