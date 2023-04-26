@@ -47,9 +47,7 @@ header .logo {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-
-    margin-left: 350px;
-    background-color: blue;
+    margin-left: 500px;
 }
 
 
@@ -58,14 +56,12 @@ header button {
     background-color: var(--black);
     border-radius: 100px;
     padding: 10px 15px;
-
     margin-left: 410px;
 }
 
 /*banner*/
 .banner {
     display: flex;
-    background-color: aquamarine;
     margin-bottom: 40px;
     gap: 270px;
 }
@@ -77,32 +73,25 @@ header button {
 .banner_text {
     display: flex;
     flex-direction: column; 
-    /*flex: 0 0 350px;*/
-
-    background-color: palevioletred;
-
-    /*remember it was 500*/
-    width: 600px;
+    width: 500px;
 }
 
 .banner_text h1 {
     font-size: 60px;
     width: 500px;
-    background-color: lightslategray;
 }
 
 .banner_text p {
     font-size: 25px;
+    font-family: roboto;
     color: var(--dark-grey);
-    background-color: lightgreen;
-    width: 560px;
+    width: 620px;
 }
 
 .banner_right {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: red;
 }
 
 .pic {
