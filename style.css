@@ -67,7 +67,7 @@ header button {
     display: flex;
     background-color: aquamarine;
     margin-bottom: 40px;
-    gap: 88px;
+    gap: 270px;
 }
 
 .banner_left {
@@ -80,18 +80,22 @@ header button {
     /*flex: 0 0 350px;*/
 
     background-color: palevioletred;
-    width: 500px;
+
+    /*remember it was 500*/
+    width: 600px;
 }
 
 .banner_text h1 {
     font-size: 60px;
-    background-color: lightblue;
+    width: 500px;
+    background-color: lightslategray;
 }
 
 .banner_text p {
     font-size: 25px;
     color: var(--dark-grey);
     background-color: lightgreen;
+    width: 560px;
 }
 
 .banner_right {
@@ -102,7 +106,8 @@ header button {
 }
 
 .pic {
-    width: 550px;
+    width: 600px;
+    height: 440px;
 }
 
 /*main*/
