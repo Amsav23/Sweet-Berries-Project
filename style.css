@@ -104,15 +104,16 @@ header button {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fill, 350px);
-    gap: 30px;
+    gap: 70px;
     padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
 
     background-color: lightsalmon;
 }
 
 .main {
     background-color: lightblue;
-    border-radius: 10px;
 
     /*padding: 0 30px;*/
     /*margin-left: 30px;
@@ -121,8 +122,8 @@ header button {
 
 .icon {
     position: relative;
-    height: 40px;
-    width: 45px;
+    height: 70px;
+    width: 75px;
 
     top: 20px;
     left: 250px;
@@ -149,20 +150,20 @@ header button {
     border-radius: 30px;
     padding: 30px;
     box-shadow: 1px 1px 1px 1px var(--light-grey);
-    width: 300px;
-    height: 300px;
+    width: 325px;
+    height: 290px;
 }
 
-.main-btn {
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
-
+.courses_container .main-btn {
     color: var(--black);
-    background-color: var(--light-beige);
+    background-color: var(--white);
     border-radius: 100px;
-    padding: 10px 15px;
-    margin: 20px;
+    padding: 10px;
+    /*margin: 20px;*/
     border: 1px solid var(--light-grey);
+
+    width: 100px;
+    display: inline;
 
 }
 
