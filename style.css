@@ -131,41 +131,36 @@ header .logo {
     left: 250px;
 }
 
+h2 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
 .courses_container_special {
-    font-size: 25px;
+    /*font-size: 35px;*/
     display: flex;
     flex-direction: column;
     border-radius: 30px;
     background-color: orange;
     padding: 30px;
     box-shadow: 1px 1px 1px 1px var(--light-grey);
-    width: 300px;
-    height: 300px;
-    margin: 50px 0;
+    width: 325px;
+    height: 290px;
+
+    margin: 75px 0 0 0;
+    justify-content: center;
 }
 
 .courses_container {
     font-size: 25px;
     display: flex;
     flex-direction: column;
-    background-color: var(--white);
     border-radius: 30px;
+    background-color: var(--white);
     padding: 30px;
     box-shadow: 1px 1px 1px 1px var(--light-grey);
     width: 325px;
     height: 290px;
-}
-
-.courses_container .main-btn {
-    /*color: var(--black);
-    background-color: var(--white);
-    border-radius: 100px;
-    /*padding: 12px 18px;
-    font-weight: bold;*/
-    /*margin: 20px;
-    border: 1px solid var(--light-grey);
-    width: 120px;
-    display: inline;*/
 }
 
 .main-btn {
