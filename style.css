@@ -164,8 +164,20 @@ header button {
 
     width: 100px;
     display: inline;
-
 }
+
+.main-btn {
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 100px;
+    padding: 10px;
+    /*margin: 20px;*/
+    border: 1px solid var(--light-grey);
+
+    width: 100px;
+    display: inline;
+}
+
 
 /*footer*/
 footer {
