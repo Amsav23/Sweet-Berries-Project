@@ -28,7 +28,7 @@ header {
 
     padding-top: 20px;
     padding-bottom: 75px;
-    background-color: lightblue;
+    background-color: var(--light-beige);
 
     align-items: center;
 }
@@ -51,12 +51,14 @@ header .logo {
 }
 
 
-header button {
+.button {
     color: var(--white);
     background-color: var(--black);
+    border: none;
     border-radius: 100px;
-    padding: 10px 15px;
+    padding: 12px 18px;
     margin-left: 410px;
+    font-weight: bold;
 }
 
 /*banner*/
@@ -155,26 +157,25 @@ header button {
 }
 
 .courses_container .main-btn {
-    color: var(--black);
+    /*color: var(--black);
     background-color: var(--white);
     border-radius: 100px;
-    padding: 10px;
-    /*margin: 20px;*/
+    /*padding: 12px 18px;
+    font-weight: bold;*/
+    /*margin: 20px;
     border: 1px solid var(--light-grey);
-
-    width: 100px;
-    display: inline;
+    width: 120px;
+    display: inline;*/
 }
 
 .main-btn {
     color: var(--black);
     background-color: var(--white);
     border-radius: 100px;
-    padding: 10px;
-    /*margin: 20px;*/
+    padding: 12px 18px;
+    font-weight: bold;
     border: 1px solid var(--light-grey);
-
-    width: 100px;
+    width: 120px;
     display: inline;
 }
 
