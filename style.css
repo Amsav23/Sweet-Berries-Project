@@ -163,6 +163,16 @@ h2 {
     height: 290px;
 }
 
+.courses_container strong {
+    background-color: red;
+    /*TRY MAKING TEXT SIZE BIGGER*/
+}
+
+.courses_container p {
+    background-color: lightgreen;
+    margin-bottom: 10px;
+}
+
 .main-btn {
     color: var(--black);
     background-color: var(--white);
