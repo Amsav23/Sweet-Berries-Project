@@ -102,13 +102,8 @@ header .logo {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fill, 350px);
-    /*gap: 70px;*/
-    gap: 110px;
-
-
-    padding-bottom: 80px;
-    padding-left: 10px;
-    padding-right: 10px;
+    column-gap: 120px;
+    padding-right: 75px;
 
     background-color: lightsalmon;
 }
@@ -138,7 +133,7 @@ h2 {
     background-color: orange;
     padding: 30px;
     box-shadow: 1px 1px 1px 1px var(--light-grey);
-    width: 360px;
+    width: 365px;
     height: 290px;
 
     margin: 75px 0 0 0;
@@ -153,16 +148,13 @@ h2 {
     background-color: var(--white);
     padding: 30px;
     box-shadow: 1px 1px 1px 1px var(--light-grey);
-    /*width: 335px;*/
-
-    width: 360px;
+    width: 365px;
     height: 290px;
 }
 
 .courses_container strong {
     background-color: red;
     font-size: 34px;
-    /*TRY MAKING TEXT SIZE BIGGER*/
 }
 
 .courses_container p {
@@ -189,7 +181,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 30px;
-    margin-top: 1585px;
+    margin-top: 1600px;
 }
 
 .bottom-logo {
