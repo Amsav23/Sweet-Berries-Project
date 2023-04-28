@@ -48,7 +48,6 @@ header .logo {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    margin-left: 500px;
 }
 
 .button {
@@ -57,7 +56,6 @@ header .logo {
     border: none;
     border-radius: 100px;
     padding: 12px 18px;
-    margin-left: 410px;
     font-weight: bold;
 }
 
@@ -67,7 +65,6 @@ header .logo {
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 40px;
-    gap: 110px;
 }
 
 .banner_left {
@@ -188,3 +185,11 @@ footer {
 .bottom-logo {
 
 }
+
+media queries for the .banner
+pic the proper size
+banner 768
+justified content 
+
+add banner left to the media querie
+display flex justify ::content center
