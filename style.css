@@ -64,6 +64,8 @@ header .logo {
 /*banner*/
 .banner {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     margin-bottom: 40px;
     gap: 110px;
 }
@@ -91,14 +93,14 @@ header .logo {
 }
 
 .banner_right {
-    display: flex;
+    /*display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center;*/
 }
 
 .pic {
     width: 640px;
-    height: 470px;
+    max-width: 100%;
 }
 
 /*main*/
@@ -119,8 +121,8 @@ header .logo {
     height: 70px;
     width: 75px;
 
-    top: 20px;
-    left: 250px;
+    top: 35px;
+    left: 330px;
 }
 
 h2 {
