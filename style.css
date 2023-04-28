@@ -31,6 +31,11 @@ header {
     align-items: center;
 }
 
+nav {
+    display: flex;
+    gap: 40px;
+}
+
 nav a {
     color: var(--black);
     text-decoration: none;
