@@ -25,11 +25,9 @@ html, body {
 header {
     display: flex;
     justify-content: space-between;
-
     padding-top: 20px;
     padding-bottom: 75px;
     background-color: var(--light-beige);
-
     align-items: center;
 }
 
@@ -40,7 +38,6 @@ nav a {
     font-family: roboto;
 
     background-color: lightcoral;
-    
 }
 
 header .logo {
@@ -49,7 +46,6 @@ header .logo {
     align-content: center;
     margin-left: 500px;
 }
-
 
 .button {
     color: var(--white);
@@ -74,8 +70,9 @@ header .logo {
 
 .banner_text {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     width: 500px;
+    background-color: lightpink;
 }
 
 .banner_text h1 {
