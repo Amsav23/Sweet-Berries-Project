@@ -61,7 +61,7 @@ header .logo {
 .banner {
     display: flex;
     margin-bottom: 40px;
-    gap: 270px;
+    gap: 110px;
 }
 
 .banner_left {
@@ -71,12 +71,12 @@ header .logo {
 .banner_text {
     display: flex;
     flex-direction: column;
-    width: 500px;
     background-color: lightpink;
 }
 
 .banner_text h1 {
-    font-size: 60px;
+    font-size: 70px;
+    font-weight: lighter;
     width: 500px;
 }
 
@@ -94,8 +94,8 @@ header .logo {
 }
 
 .pic {
-    width: 600px;
-    height: 440px;
+    width: 640px;
+    height: 470px;
 }
 
 /*main*/
