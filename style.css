@@ -217,17 +217,16 @@ footer {
         height: 160px;
     }
 
-    .courses_container_special {
+    .courses_container_special, .courses_container {
         width: 270px;
         height: 180px;
     }
 
-    .courses_container {
-        width: 270px;
-        height: 180px;
+    .courses_container_special h2 {
+        font-size: 40px;
     }
 
-    .courses_container strong, h2 {
+    .courses_container strong {
         font-size: 25px;
     }
 
@@ -235,30 +234,16 @@ footer {
         font-size: 18px;
     }
 
+    .icon {
+        position: relative;
+        height: 50px;
+        width: 55;
+        top: 35px;
+        left: 250px;
+    }
+
     footer {
         margin-top: 1889px;
     }
 }
 
-
-
-/*Media Query Styles*/
-/*@media (max-width 768px) {
-    .pic {
-        justify-content: center;
-    }
-    .banner_left {
-        display: flex;
-        justify-content: center;
-    }
-}
-*/
-
-
-/*media queries for the .banner
-pic the proper size
-banner 768
-justified content 
-
-add banner left to the media querie
-display flex justify ::content center*/
