@@ -208,7 +208,7 @@ footer {
 
     .main_container {
         width: 200px;
-        grid-template-rows: repeat(3, 1fr);
+        row-gap: 120px;
         grid-template-columns: 1fr 1fr;
     }
 
