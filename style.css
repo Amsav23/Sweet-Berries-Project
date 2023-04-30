@@ -109,14 +109,17 @@ header .logo {
     grid-template-columns: repeat(auto-fit, 350px);
     column-gap: 60px;
     padding-right: 75px;
-    width: 1296px;
+    max-width: auto;
+}
+
+.main {
+
 }
 
 .icon {
     position: relative;
     height: 70px;
     width: 75px;
-
     top: 35px;
     left: 330px;
 }
@@ -178,10 +181,16 @@ footer {
     display: flex;
     justify-content: center;
     padding: 30px;
-    margin-top: 1600px;
+    margin-top: 1586px;
 }
 
-@media (max-width: 768px) {
+
+/*Media Query Styles*/
+@media (max-width: 768px) and (min-width: 384px) {
+    body {
+        height: 1969px;
+    }
+    
     .banner {
         justify-content: center;
     }
@@ -198,17 +207,36 @@ footer {
     }
 
     .main_container {
-
+        width: 200px;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
 
-    .courses_container {
-        width: 332px;
-        height: 263px;
+    .main {
+        width: 300px;
+        height: 160px;
     }
 
     .courses_container_special {
-        width: 332px;
-        height: 263px;
+        width: 270px;
+        height: 180px;
+    }
+
+    .courses_container {
+        width: 270px;
+        height: 180px;
+    }
+
+    .courses_container strong, h2 {
+        font-size: 25px;
+    }
+
+    .courses_container p {
+        font-size: 18px;
+    }
+
+    footer {
+        margin-top: 1889px;
     }
 }
 
