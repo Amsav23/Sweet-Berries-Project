@@ -23,7 +23,7 @@ html, body {
 
 /*header*/
 header {
-    /*display: flex;*/
+    display: flex;
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 75px;
@@ -40,8 +40,6 @@ nav a {
     color: var(--black);
     text-decoration: none;
     font-family: roboto;
-
-    background-color: lightcoral;
 }
 
 header .logo {
@@ -186,10 +184,23 @@ footer {
 
 }
 
-media queries for the .banner
+/*Media Query Styles*/
+@media (max-width 768px) {
+    /*.pic {
+        justify-content: center;
+    }
+    .banner_left {
+        display: flex;
+        justify-content: center;
+    }*/
+}
+
+
+
+/*media queries for the .banner
 pic the proper size
 banner 768
 justified content 
 
 add banner left to the media querie
-display flex justify ::content center
+display flex justify ::content center*/
