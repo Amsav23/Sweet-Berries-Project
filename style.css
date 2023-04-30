@@ -66,9 +66,9 @@ header .logo {
     margin-bottom: 40px;
 }
 
-.banner_left {
+/*.banner_left {
 
-}
+}*/
 
 .banner_text {
     display: flex;
@@ -88,11 +88,11 @@ header .logo {
     width: 620px;
 }
 
-.banner_right {
-    /*display: flex;
+/*.banner_right {
+    display: flex;
     justify-content: flex-end;
-    align-items: center;*/
-}
+    align-items: center;
+}*/
 
 .pic {
     width: 640px;
@@ -107,10 +107,6 @@ header .logo {
     grid-template-columns: repeat(auto-fill, 325px);
     column-gap: 120px;
     padding-right: 75px;
-}
-
-.main {
-
 }
 
 .icon {
@@ -182,21 +178,17 @@ footer {
     margin-top: 1600px;
 }
 
-.bottom-logo {
-
-}
-
 /*Media Query Styles*/
-@media (max-width 768px) {
-    /*.pic {
+/*@media (max-width 768px) {
+    .pic {
         justify-content: center;
     }
     .banner_left {
         display: flex;
         justify-content: center;
-    }*/
+    }
 }
-
+*/
 
 
 /*media queries for the .banner
