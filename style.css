@@ -180,6 +180,23 @@ footer {
     margin-top: 1600px;
 }
 
+@media (max-width: 768px) {
+    .banner {
+        justify-content: center;
+    }
+
+    .banner_text {
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .banner_text h1 {
+        font-size: 60px;
+        width: 670px;
+    }
+}
+
 /*Media Query Styles*/
 /*@media (max-width 768px) {
     .pic {
