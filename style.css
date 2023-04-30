@@ -107,8 +107,9 @@ header .logo {
     display: grid;
     justify-content: space-between;
     grid-template-columns: repeat(auto-fit, 350px);
-    /*column-gap: 60px;*/
+    column-gap: 60px;
     padding-right: 75px;
+    width: 1296px;
 }
 
 .icon {
@@ -197,7 +198,7 @@ footer {
     }
 
     .main_container {
-        grid-template-columns: repeat(2, auto);
+
     }
 
     .courses_container {
