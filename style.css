@@ -105,9 +105,9 @@ header .logo {
 /*main*/
 .main_container {
     display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fill, 325px);
-    column-gap: 120px;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, 350px);
+    /*column-gap: 60px;*/
     padding-right: 75px;
 }
 
@@ -195,7 +195,23 @@ footer {
         font-size: 60px;
         width: 670px;
     }
+
+    .main_container {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .courses_container {
+        width: 332px;
+        height: 263px;
+    }
+
+    .courses_container_special {
+        width: 332px;
+        height: 263px;
+    }
 }
+
+
 
 /*Media Query Styles*/
 /*@media (max-width 768px) {
