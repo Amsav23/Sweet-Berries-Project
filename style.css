@@ -79,6 +79,7 @@ header .logo {
     font-size: 70px;
     font-weight: lighter;
     width: 500px;
+    margin-bottom: 15px;
 }
 
 .banner_text p {
@@ -86,6 +87,7 @@ header .logo {
     font-family: roboto;
     color: var(--dark-grey);
     width: 620px;
+    margin-bottom: 5px; 
 }
 
 /*.banner_right {
