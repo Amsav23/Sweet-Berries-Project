@@ -62,6 +62,7 @@ header .logo {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 40px;
 }
 
@@ -96,6 +97,7 @@ header .logo {
 .pic {
     width: 640px;
     max-width: 100%;
+    /*margin-left: 105px;*/
 }
 
 /*main*/
