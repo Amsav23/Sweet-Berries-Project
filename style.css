@@ -107,13 +107,8 @@ header .logo {
     justify-content: space-between;
     grid-template: 1fr 1fr / repeat(3, 1fr);
     column-gap: 3%;
-    /*padding-right: 75px;*/
     max-width: 100%;
     margin-bottom: 100px;
-}
-
-.main {
-
 }
 
 .icon {
@@ -137,7 +132,6 @@ h2 {
     padding: 30px;
     width: 365px;
     height: 290px;
-
     margin-top: 17%;
     justify-content: center;
 }
@@ -149,7 +143,6 @@ h2 {
     border-radius: 30px;
     background-color: var(--white);
     padding: 30px;
-
     width: 365px;
     height: 290px;
 }
@@ -198,6 +191,10 @@ footer {
         max-width: 690px;
     }
 
+    .pic {
+        margin-top: 10%;
+    }
+
     .main_container {
         row-gap: 1%;
         grid-template: repeat(3, 1fr) / 1fr 1fr;
@@ -230,6 +227,10 @@ footer {
 }
 
 @media (max-width: 390px) {
+    .banner_text h1 {
+        font-size: 300%;
+    }
+    
     nav a {
         display: none;
     }
@@ -250,7 +251,6 @@ footer {
     }
 
     .pic {
-        margin-top: 10%;
         max-width: 380px;
     }
 
@@ -258,6 +258,4 @@ footer {
         row-gap: 1%;
         grid-template: repeat(6, 1fr) / 1fr;
     }
-
 }
-
