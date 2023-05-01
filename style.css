@@ -164,7 +164,6 @@ h2 {
     font-weight: bold;
     border: 1px solid var(--light-grey);
     width: 120px;
-    display: inline;
 }
 
 /*footer*/
@@ -178,19 +177,14 @@ footer {
 
 
 /*Media Query Styles*/
-@media (max-width: 768px) and (min-width: 384px) {
-    body {
-        height: 1969px;
-    }
-    
-    .banner {
+@media (max-width: 768px) {
+   .banner {
         justify-content: center;
     }
 
     .banner_text {
         align-items: center;
         text-align: center;
-        margin-bottom: 40px;
     }
 
     .banner_text h1, p {
@@ -198,13 +192,8 @@ footer {
     }
 
     .main_container {
-        row-gap: 130px;
+        row-gap: 1%;
         grid-template: repeat(3, 1fr) / 1fr 1fr;
-    }
-
-    .main {
-        width: 300px;
-        height: 160px;
     }
 
     .courses_container_special, .courses_container {
