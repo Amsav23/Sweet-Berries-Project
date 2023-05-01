@@ -25,8 +25,8 @@ html, body {
 header {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 75px;
+    padding-top: 3%;
+    padding-bottom: 8%;
     background-color: var(--light-beige);
     align-items: center;
 }
@@ -63,12 +63,8 @@ header .logo {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 6%;
 }
-
-/*.banner_left {
-
-}*/
 
 .banner_text {
     display: flex;
@@ -76,9 +72,10 @@ header .logo {
 }
 
 .banner_text h1 {
-    font-size: 70px;
+    font-size: 500%;
     font-weight: lighter;
-    width: 500px;
+    width: auto;
+    max-width: 570px;
     margin-bottom: 15px;
 }
 
@@ -86,31 +83,24 @@ header .logo {
     font-size: 25px;
     font-family: roboto;
     color: var(--dark-grey);
-    width: 620px;
+    width: auto;
+    max-width: 570px;
     margin-bottom: 5px; 
 }
 
-/*.banner_right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}*/
-
 .pic {
-    width: 640px;
-    max-width: 100%;
-    /*margin-left: 105px;*/
+    width: auto;
+    max-width: 600px;
 }
 
 /*main*/
 .main_container {
     display: grid;
     justify-content: space-between;
-   /* grid-template-columns: repeat(auto-fit, 350px);*/
     grid-template: 1fr 1fr / repeat(3, 1fr);
-    column-gap: 60px;
-    padding-right: 75px;
-    max-width: auto;
+    column-gap: 3%;
+    /*padding-right: 75px;*/
+    max-width: 100%;
     margin-bottom: 100px;
 }
 
@@ -140,7 +130,7 @@ h2 {
     width: 365px;
     height: 290px;
 
-    margin: 75px 0 0 0;
+    margin-top: 17%;
     justify-content: center;
 }
 
@@ -203,14 +193,12 @@ footer {
         margin-bottom: 40px;
     }
 
-    .banner_text h1 {
-        font-size: 60px;
-        width: 670px;
+    .banner_text h1, p {
+        max-width: 690px;
     }
 
     .main_container {
-        width: 200px;
-        row-gap: 120px;
+        row-gap: 130px;
         grid-template: repeat(3, 1fr) / 1fr 1fr;
     }
 
